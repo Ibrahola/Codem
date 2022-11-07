@@ -1,0 +1,95 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/images/background-2.avif);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ div h1{
+     /* margin: auto 500px; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+
+ div h2{
+     /* margin: auto 600px; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 20px;
+ }
+
+ #increment-btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       border: 2px solid black;
+       border-radius: 3px;
+       box-shadow: 2px 2px 2px white;
+       background: red;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       width: 100px;
+       height: 20px;
+       padding: 10px;
+       color: white;
+
+ }
+ #decrement-btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       border: 2px solid black;
+       border-radius: 3px;
+       box-shadow: 2px 2px 2px white;
+       background: red;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       
+ }
+
+ 
+
+   #save-btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       width: 100px;
+       height: 25px;
+       outline: 2px solid black;
+       outline-offset: -5px;
+       border-radius: 6px;
+       background: green;
+   }
+
+   #reset-btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       width: 100px;
+       height: 25px;
+       outline: 2px solid black;
+       outline-offset: -5px;
+       border-radius: 6px;
+       background: green;
+   }
+
+   p{
+       display: flex;
+       justify-content: center;
+       color: red;
+   }
